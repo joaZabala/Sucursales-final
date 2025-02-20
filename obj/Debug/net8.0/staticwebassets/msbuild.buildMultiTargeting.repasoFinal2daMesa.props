@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\repasoFinal2daMesa.props" />
+</Project>

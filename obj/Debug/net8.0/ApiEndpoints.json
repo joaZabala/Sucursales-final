@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "repasoFinal2daMesa.Controllers.SucursalesController",
+    "Method": "Get",
+    "RelativePath": "parcial/Sucursales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "repasoFinal2daMesa.response.ApiResponse\u00601[[repasoFinal2daMesa.Models.Sucursales, repasoFinal2daMesa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "repasoFinal2daMesa.Controllers.SucursalesController",
+    "Method": "Put",
+    "RelativePath": "parcial/Sucursales/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "repasoFinal2daMesa.DTOS.SucursalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "repasoFinal2daMesa.response.ApiResponse\u00601[[repasoFinal2daMesa.Models.Sucursales, repasoFinal2daMesa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "repasoFinal2daMesa.Controllers.SucursalesController",
+    "Method": "GetConfigs",
+    "RelativePath": "parcial/Sucursales/configuraciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "repasoFinal2daMesa.response.ApiResponse\u00601[[repasoFinal2daMesa.Models.Sucursales, repasoFinal2daMesa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "repasoFinal2daMesa.Controllers.SucursalesController",
+    "Method": "GetProvincia",
+    "RelativePath": "parcial/Sucursales/provincias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "repasoFinal2daMesa.response.ApiResponse\u00601[[repasoFinal2daMesa.Models.Sucursales, repasoFinal2daMesa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "repasoFinal2daMesa.Controllers.SucursalesController",
+    "Method": "GetTipos",
+    "RelativePath": "parcial/Sucursales/tipos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "repasoFinal2daMesa.response.ApiResponse\u00601[[repasoFinal2daMesa.Models.Sucursales, repasoFinal2daMesa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

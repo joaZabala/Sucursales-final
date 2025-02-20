@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\repasoFinal2daMesa.props" />
+</Project>
